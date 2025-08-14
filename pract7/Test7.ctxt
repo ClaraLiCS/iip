@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.target=Test7
+comment0.text=\r\n\ Clase\ Test7\:\ clase\ programa\ que\ prueba\ las\ funcionalidades\ de\ las\ clases\ Event\ y\ Calendar.\r\n\ \r\n\ @author\ IIP\ -\ Pr\u00E1ctica\ 7\r\n\ @version\ Curso\ 2023/24\r\n
+comment1.params=
+comment1.target=Test7()
+comment1.text=Hidden\ constructor
+comment10.params=c\ kbd
+comment10.target=void\ showEventType(Calendar,\ java.util.Scanner)
+comment10.text=\r\n\ Method\ that\ displays\ the\ events\ of\ a\ given\ type\ of\ the\ given\ calendar.\r\n\ @param\ c\ Calendar,\ the\ calendar.\r\n\ @param\ kdb\ Scanner,\ the\ standard\ input\ (keyboard).\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=t
+comment3.target=int\ menu(java.util.Scanner)
+comment3.text=\r\n\ Method\ that\ displays\ in\ the\ terminal\ window\ a\ menu\ with\ the\ \r\n\ \ operations\ that\ can\ be\ performed\ on\ a\ calendar,\ and\ performs\ \r\n\ \ the\ reading\ of\ a\ valid\ option\ from\ the\ keyboard.\r\n\ @param\ t\ Scanner,\ the\ standard\ input\ (the\ keyboard).\r\n\ @return\ int,\ the\ chosen\ option.\r\n
+comment4.params=t
+comment4.target=int\ typeMenu(java.util.Scanner)
+comment4.text=\r\n\ Method\ that\ displays\ in\ the\ terminal\ window\ a\ menu\ with\ the\ \r\n\ \ types\ of\ events\ that\ can\ be\ found\ in\ a\ calendar,\ and\ performs\ \r\n\ \ the\ reading\ of\ a\ valid\ option\ from\ the\ keyboard.\r\n\ @param\ t\ Scanner,\ the\ standard\ input\ (the\ keyboard).\r\n\ @return\ int,\ the\ chosen\ option.\r\n
+comment5.params=type
+comment5.target=java.lang.String\ getStringType(int)
+comment5.text=\r\n\ Method\ that\ returns\ a\ String\ representing\ the\ given\ type\ event\ type,\ where\ 1\ <\=\ type\ <\=\ 3.\r\n\ @param\ type\ int,\ the\ type.\ Precondition\:\ 1\ <\=\ type\ <\=\ 3.\r\n\ @return\ String,\ the\ type\ of\ event\:\ congress,\ show\ or\ exposition.\r\n
+comment6.params=c\ kbd
+comment6.target=void\ addEvent(Calendar,\ java.util.Scanner)
+comment6.text=\r\n\ Method\ that\ adds\ an\ event\ to\ the\ given\ calendar,\ reading\ the\ event\ data\ from\ the\ keyboard.\r\n\ @param\ c\ Calendar,\ the\ calendar.\r\n\ @param\ kdb\ Scanner,\ the\ standard\ input\ (keyboard).\r\n
+comment7.params=c\ kbd
+comment7.target=void\ deleteEvent(Calendar,\ java.util.Scanner)
+comment7.text=\r\n\ Method\ that\ deletes\ an\ event,\ whose\ title\ it\ gets\ from\ the\ keyboard,\ \r\n\ \ from\ the\ calendar\ given\ as\ parameter.\r\n\ @param\ c\ Calendar,\ the\ calendar.\r\n\ @param\ kdb\ Scanner,\ the\ standard\ input\ (keyboard).\r\n
+comment8.params=c\ kbd
+comment8.target=void\ showAllEvents(Calendar,\ java.util.Scanner)
+comment8.text=\r\n\ Method\ that\ displays\ in\ the\ terminal\ window\ all\ the\ events\ of\ the\ given\ calendar.\r\n\ @param\ c\ Calendar,\ the\ calendar.\r\n\ @param\ kdb\ Scanner,\ the\ standard\ input\ (keyboard).\r\n
+comment9.params=c\ kbd
+comment9.target=void\ showEventLarger(Calendar,\ java.util.Scanner)
+comment9.text=\r\n\ Method\ that\ displays\ the\ longest\ event\ of\ a\ given\ calendar.\r\n\ @param\ c\ Calendar,\ the\ calendar.\r\n\ @param\ kdb\ Scanner,\ the\ standard\ input\ (keyboard).\r\n
+numComments=11

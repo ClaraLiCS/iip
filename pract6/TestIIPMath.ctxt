@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TestIIPMath
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TestIIPMath\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ table()
+comment1.text=\ Write\ to\ standard\ output,\ line\ by\ line,\ the\ values\ of\r\n\ Math.sin(x)\ and\ IIPMath.sin(x),\ for\ x\ from\ 0\ to\ 20\ radians.\r\n\ Display\ the\ difference\ in\ absolute\ value\ between\ these\ values.\r\n
+comment2.params=
+comment2.target=void\ graph()
+comment2.text=\ Get\ the\ grapgh\ of\ the\ function\ IIPMath.sin(x)\ on\ the\ interval\ [-20,20].\r\n
+numComments=3

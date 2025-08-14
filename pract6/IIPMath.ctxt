@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=IIPMath
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ IIPMath\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=x\ epsilon
+comment1.target=double\ sin(double,\ double)
+comment1.text=\ Calculate\ the\ sine\ of\ an\ angle\ x,\ in\ radians,*\r\n\ with\ a\ maximum\ error\ epsilon.\r\n\ \r\n\ @param\ double\ x\ (the\ angle)\r\n\ @param\ double\ epsilon\ (the\ maximum\ error)\r\n\ @return\ double\ the\ sinus\ of\ x\r\n
+comment2.params=x
+comment2.target=double\ sin(double)
+comment2.text=\ Calculate\ the\ sine\ of\ an\ angle\ x,\ in\ radians,\r\n\ with\ a\ maximum\ error\ 1e-15.\r\n\ \r\n\ @param\ double\ x\ (the\ angle)\r\n\ @return\ double\ the\ sinus\ of\ x\r\n
+comment3.params=x
+comment3.target=double\ reducFirstCirc(double)
+comment3.text=\ Return\ the\ reduction\ of\ the\ angle\ x\ to\ the\ first\ circumference.\r\n\ Precondition\:\ x\ is\ in\ radians.\r\n
+numComments=4

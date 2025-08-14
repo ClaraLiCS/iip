@@ -1,0 +1,40 @@
+#BlueJ class context
+comment0.target=Event
+comment0.text=\r\n\ Class\ Event\:\ data\ type\ class\ representing\ an\ event\ with\ a\ title,\ \r\n\ of\ a\ given\ type\ and\ with\ a\ start\ date\ and\ an\ end\ date.\r\n\r\n\ @author\ IIP\ -\ Lab\ Activity\ 7\r\n\ @version\ Academic\ year\ 2023/24\r\n
+comment1.params=start\ end\ tit\ type
+comment1.target=Event(pract5.DateTime,\ pract5.DateTime,\ java.lang.String,\ int)
+comment1.text=\r\n\ General\ constructor\ of\ class\ Event.\r\n\ \ @param\ start\ DateTime,\ start\ date\ (previous\ to\ end\ date).\r\n\ \ @param\ end\ DateTime,\ end\ date\ (after\ start\ date).\r\n\ \ @param\ tit\ String,\ the\ title.\r\n\ \ @param\ type\ int,\ the\ type\ of\ el\ tipo,\ 1\ <\=\ type\ <\=\ 3.\r\n
+comment10.params=
+comment10.target=int\ getDuration()
+comment10.text=\r\n\ Getter\ of\ the\ duration\ in\ minutes.\r\n\ \ @return\ int,\ minutes\ from\ the\ start\ date\ to\ the\ end\ date.\r\n
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment11.text=\r\n\ Method\ toString,\ returns\ a\ String\ as\ a\ description\ of\ the\ current\ Event,\ according\ to\r\n\ the\ following\ format\:\ first\ line\ contains\ the\ title,\ next\ line\ contains\ the\ initial\ \r\n\ date,\ a\ hyphen\ and\ the\ final\ date,\ and\ finally,\ the\ last\ line\ contains\ inside\ \r\n\ parenthesis\ a\ word\ in\ plural\ and\ upper\ case\ with\ the\ type\ of\ the\ event,\ (CONGRESSES),\ \r\n\ (SHOWS),\ (EXHIBITIONS)}\ finishing\ with\ a\ "\\n"\r\n\ \ @return\ String,\ the\ description\r\n
+comment12.params=o
+comment12.target=boolean\ equals(java.lang.Object)
+comment12.text=\r\n\ Method\ equals,\ check\ the\ equality\ of\ the\ current\ event\ with\ the\ given\ object.\r\n\ @param\ o\ Object.\r\n\ @return\ boolean,\ true\ if\ the\ given\ object\ if\ of\ class\ Event,\ and\ title,\ type\ \r\n\ \ \ \ \ \ and\ start\ and\ end\ dates\ are\ the\ same\ of\ the\ given\ object,\ false\ otherwise\ \r\n
+comment2.params=
+comment2.target=pract5.DateTime\ getStartTime()
+comment2.text=\r\n\ Getter\ Method\ of\ the\ start\ date.\r\n\ \ @return\ DateTime,\ start\ date.\r\n
+comment3.params=
+comment3.target=pract5.DateTime\ getEndTime()
+comment3.text=\r\n\ Getter\ Method\ of\ the\ end\ date.\r\n\ \ @return\ DateTime,\ end\ date.\r\n
+comment4.params=
+comment4.target=int\ getType()
+comment4.text=\r\n\ Getter\ Method\ of\ the\ type.\r\n\ \ @return\ int,\ el\ tipo.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getTitle()
+comment5.text=\r\n\ Getter\ Method\ of\ the\ title.\r\n\ \ @return\ String,\ the\ title.\r\n
+comment6.params=d
+comment6.target=void\ setStartTime(pract5.DateTime)
+comment6.text=\r\n\ Setter\ Method\ of\ the\ start\ date.\r\n\ \ @param\ d\ DateTime,\ new\ start\ date.\r\n
+comment7.params=d
+comment7.target=void\ setEndTime(pract5.DateTime)
+comment7.text=\r\n\ Setter\ Method\ of\ the\ end\ date.\r\n\ \ @param\ d\ DateTime,\ new\ end\ date.\r\n
+comment8.params=t
+comment8.target=void\ setType(int)
+comment8.text=\r\n\ Setter\ Method\ of\ the\ type\ .\r\n\ \ @param\ t\ int,\ new\ Type,\ where\ 1\ <\=\ t\ <\=\ 3.\r\n
+comment9.params=t
+comment9.target=void\ setTitle(java.lang.String)
+comment9.text=\r\n\ Setter\ Method\ of\ the\ title.\r\n\ \ @param\ t\ String,\ new\ title.\r\n
+numComments=13
